@@ -6,11 +6,12 @@
     font-style: normal;
   }
 :root {
-    --cor0: #F2E7C4;
-    --cor1: #D9BB62;
-    --cor2: #D9A362;
-    --cor3: #0F5FA6;
-    --cor4: #041E40;
+    --cor0: #ffffff;
+    --cor1: #0367A6;
+    --cor2: #025E73;
+    --cor3: #0396a6a4;
+    --cor4: #073049;
+    --cor5: #04D9D9;
 
     --fonte-padrão: Arial, Verdana, Helvetica, sans-serif;
     --fonte-titulo: "Rubik Mono One", monospace;
@@ -18,20 +19,21 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
-    background-color: var(--cor4);
-    margin: 0px 0px 10px 0px;
+    margin: 0px;
+    background-image: url(Imagens/Backgroud01-pc.png);
+    background-position: center;
+    background-color: var(--cor0);
 }
-div#head{
-    background-color: var(--cor3);
-    padding: 30px;
-    padding-bottom: 1px;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.664);
+header{
     color: var(--cor0);
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.493);
-}
-div > h1 {
-    font-family: var(--fonte-titulo);
-    margin-bottom: 60px;
+    background-color: var(--cor4);
+    width: 100%;
+    padding: 30px;
+    padding-bottom: 1px;
+    box-shadow: 1px 1px 5px black;
+    position: sticky;
+    top: 0px;
 }
 a {
     color: var(--cor0);
@@ -43,4 +45,13 @@ a {
     border-radius: 5px;
     color: var(--cor4);
     padding: 5px;
+}
+main{
+    margin-top: 100px ;
+    background-color: var(--cor0); 
+}
+h2{
+    text-align: center;
+    padding: 10px;
+    font-size: 2em;
 }
